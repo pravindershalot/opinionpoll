@@ -8,19 +8,18 @@
 
     <body>
 
-        <h2>JavaScript Libraries - Opinion Poll</h2>
+        <h2>An opinion poll form to collect visitor responses on different situations.</h2>
 
-        <p><b>What is your favorite JavaScript?</b></p>
+        <p><b>What is your favorite Author?</b></p>
 
         <form method="POST" action="index.php">
 
-            <p> <input type="radio" name="vote" value="1" />JQuery
+            <p> <input type="radio" name="vote" value="1" />Miguel de Cervantes
+                <br /><input type="radio" name="vote" value="2" />Charles Dickens
 
-                <br /><input type="radio" name="vote" value="2" />MooToolsl
+                <br /><input type="radio" name="vote" value="3" />J.R.R. Tolkien
 
-                <br /><input type="radio" name="vote" value="3" />YUI Library
-
-                <br /><input type="radio" name="vote" value="4" />Glow
+                <br /><input type="radio" name="vote" value="4" />Antoine de Saint-Exuper
 
             </p>
 
